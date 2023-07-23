@@ -1,0 +1,26 @@
+.btn {
+	@apply rounded-xl px-7 py-2 font-medium shadow transition duration-300 ease-in-out;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	opacity: 0.2 !important;
+}
+
+.add {
+	@apply bg-primary text-white;
+}
+
+.remove {
+	@apply bg-red text-white;
+}
+
+.checkout {
+	@apply bg-aqua text-white;
+}
+
+.disabled {
+	@apply hover:shadow-lg;
+}

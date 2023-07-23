@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply overflow-x-hidden bg-bg-color text-base text-black;
+	font-family: var(--font-golos), sans-serif;
+}
