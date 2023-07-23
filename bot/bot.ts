@@ -4,7 +4,7 @@ const bot = new Telegraf(TOKEN)
 
 const web_link = 'https://managetrade.ru/'
 
-bot.start((ctx) =>
+bot.start((ctx: any) =>
 	ctx.reply('Welcome :)))))', {
 		reply_markup: {
 			keyboard: [[{ text: 'web app', web_app: { url: web_link } }]],
